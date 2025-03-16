@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Blend Modes</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Blend Modes</h1>
+        <button class="btn-mode">Choose Mode</button>
+    </header>
+    <main>
+        <div class="mode-panel-container">
+    <form action="#" class="color-mode">
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Normal" id="rb01">
+        <label for="rb01">Normal<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Multiply" id="rb02">
+        <label for="rb02">Multiply<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Color" id="rb03">
+        <label for="rb03">Color<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Screen" id="rb04">
+        <label for="rb04">Screen<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Overlay" id="rb05">
+        <label for="rb05">Overlay<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Darken" id="rb06">
+        <label for="rb06">Darken<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Lighten" id="rb07">
+        <label for="rb07">Lighten<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="ColorDodge" id="rb08">
+        <label for="rb08">ColorDodge<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="ColorBurn" id="rb09">
+        <label for="rb09">ColorBurn<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="SoftLight" id="rb10">
+        <label for="rb10">SoftLight<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="HardLight" id="rb11">
+        <label for="rb11">HardLight<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Exclusion" id="rb12">
+        <label for="rb12">Exclusion<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Saturation" id="rb13">
+        <label for="rb13">Saturation<span class="check"></span></label>
+    </div>
+    <div class="input-label-container">
+        <input type="radio" name="blendmode" value="Luminosity" id="rb14">
+        <label for="rb14">Luminosity<span class="check"></span></label>
+    </div>
+    <div class="color-picker-container">
+        <label for="color-picker">Select a background color</label>
+        <input type="color" id="color-picker">
+    </div>
+
+    </form>
+</div>
+
+    <div class="pictures">
+
+        <div class="picture box1">
+            <img src="https://picsum.photos/1000/1000?random=1" alt="">
+            <div class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolores beatae et!</div>
+        </div>
+        <div class="picture box2">
+            <img src="https://picsum.photos/1000/1000?random=2" alt="">
+            <div class="message">Ratione perferendis voluptates inventore neque blanditiis fuga illo culpa laborum amet non?</div>
+        </div>
+        <div class="picture box3">
+            <img src="https://picsum.photos/1000/1000?random=3" alt="">
+            <div class="message">Reiciendis rerum, voluptatem dicta perferendis error neque. Quae deserunt inventore odio tenetur!</div>
+        </div>
+        <div class="picture box4">
+            <img src="https://picsum.photos/1000/1000?random=4" alt="">
+            <div class="message">Doloribus inventore esse cupiditate autem delectus eaque quis ad odio at accusantium.</div>
+        </div>
+        <div class="picture box5">
+            <img src="https://picsum.photos/1000/1000?random=5" alt="">
+            <div class="message">Nesciunt, officia dolorum consequatur beatae ratione rem unde consequuntur qui necessitatibus eaque!</div>
+        </div>
+        <div class="picture box6">
+            <img src="https://picsum.photos/1000/1000?random=6" alt="">
+            <div class="message">Repellendus amet consequatur eum ab laboriosam doloribus consequuntur quos, ducimus voluptatem cum.</div>
+        </div>
+        <div class="picture box7">
+            <img src="https://picsum.photos/1000/1000?random=7" alt="">
+            <div class="message">Voluptate, quam? Id consequuntur beatae qui? Voluptatem quia veritatis unde a labore?</div>
+        </div>
+        <div class="picture box8">
+            <img src="https://picsum.photos/1000/1000?random=8" alt="">
+            <div class="message">Provident nihil perspiciatis doloribus harum ad animi facilis optio cupiditate, molestiae nisi!</div>
+        </div>
+        <div class="picture box9">
+            <img src="https://picsum.photos/1000/1000?random=9" alt="">
+            <div class="message">Repellendus hic temporibus illum esse voluptate voluptatibus nostrum amet aperiam aspernatur exercitationem?</div>
+        </div>
+        <div class="picture box10">
+            <img src="https://picsum.photos/1000/1000?random=10" alt="">
+            <div class="message">Doloribus itaque tenetur possimus omnis impedit, saepe eaque reprehenderit adipisci iusto eos.</div>
+        </div>
+        <div class="picture box11">
+            <img src="https://picsum.photos/1000/1000?random=11" alt="">
+            <div class="message">Ex ducimus natus voluptas cum sapiente dolore sed quasi laboriosam tempora nemo.</div>
+        </div>
+        <div class="picture box12">
+            <img src="https://picsum.photos/1000/1000?random=12" alt="">
+            <div class="message">Deleniti quas amet eveniet blanditiis aliquid accusantium id, vel repudiandae perferendis explicabo.</div>
+        </div>
+
+    </div>
+</main>
+    
+</body>
+</html>
